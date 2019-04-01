@@ -12,7 +12,7 @@
 				</div>
 				<div class="gray-box">
 					<div class="item-box">
-					<shop-item :key="index" v-for="item,index in goodsData" :item="item"></shop-item>
+					<shop-item :key="index" v-for="(item,index) in goodsData" :item="item"></shop-item>
 					</div>
 				</div>
 			</div>

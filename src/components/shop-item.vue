@@ -7,7 +7,7 @@
 								<h3 >{{item.name_title}}</h3>
 								<div class="params-colors">
 									<ul class="colors-list">
-										<li v-for="sku,index in item.sku_info"><a href="javascript:;" @click="tableIndex(index)" :class="{'active':index==itemIndex}" :title="sku.spec_json.show_name"><img :src="'http://img01.smartisanos.cn/'+sku.spec_json.image+'20X20.jpg'"></a></li>
+										<li v-for="(sku,index) in item.sku_info" :key="index"><a href="javascript:;" @click="tableIndex(index)" :class="{'active':index==itemIndex}" :title="sku.spec_json.show_name"><img :src="'http://img01.smartisanos.cn/'+sku.spec_json.image+'20X20.jpg'"></a></li>
 									</ul>
 								</div>
 								<div class="item-btns clearfix">
