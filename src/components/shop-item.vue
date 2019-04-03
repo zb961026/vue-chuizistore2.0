@@ -11,7 +11,7 @@
 									</ul>
 								</div>
 								<div class="item-btns clearfix">
-									<span class="item-gray-btn"><router-link :to="{name:'Item',query:{itemId:item.sku_info[itemIndex].sku_id}}">查看详情</router-link></span><span class="item-blue-btn">加入购物车 </span>
+									<span class="item-gray-btn"><router-link :to="{name:'Item',query:{itemId:item.sku_info[itemIndex].sku_id}}">查看详情</router-link></span><span class="item-blue-btn">找相似</span>
 								</div>
 								<div class="item-price clearfix">
 									<i>¥</i><span>{{item.price}}</span>

@@ -51,7 +51,7 @@
 						<div class="sku-status">
 							<div class="cart-operation-wrapper clearfix">
 								<span class="blue-title-btn js-add-cart" @click="addCarPanelHandle"><a>加入购物车</a></span>
-								<span class="gray-title-btn"><a>现在购买</a></span>
+								<span class="gray-title-btn" @click="addCarPanelHandle"><a>现在购买</a></span>
 							</div>
 						</div>
 					</div>
