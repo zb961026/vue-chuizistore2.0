@@ -1,7 +1,7 @@
 <template>
-			<div id="main">
-			<div class="store-content item">
-				<div class="item-box">
+	<div id="main">
+		<div class="store-content item">
+			<div class="item-box">
 					<div class="gallery-wrapper">
 						<div class="gallery">
 							<div class="thumbnail">
