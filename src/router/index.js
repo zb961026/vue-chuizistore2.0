@@ -5,9 +5,11 @@ import '@/assets/css/header.css'
 import '@/assets/css/goodsList.css'
 import '@/assets/css/prompt.css'
 import '@/assets/css/item.css'
+import '@/assets/css/cart.css'
 Vue.use(Router);
 import Shop from '@/views/Shop'
 import Item from '@/views/item'
+import Cart from '@/views/cart'
 
 export default new Router({
     mode:'history',
@@ -21,6 +23,11 @@ export default new Router({
             path:'/item',
             name:'Item',
             component:Item
+        },
+        {
+            path:'/cart',
+            name:'Cart',
+            component:Cart
         }
     ]
 })
