@@ -1,6 +1,6 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import '@/assets/css/reset.css'
+import Vue from 'vue' // 导入vue模块
+import Router from 'vue-router' //  导入vue-router模块
+import '@/assets/css/reset.css' // 引入所需要的所有样式表
 import '@/assets/css/header.css'
 import '@/assets/css/goodsList.css'
 import '@/assets/css/prompt.css'
@@ -10,7 +10,7 @@ import '@/assets/css/footer.css'
 import Shop from '@/views/Shop'
 import Item from '@/views/item'
 import Cart from '@/views/cart'
-Vue.use(Router)
+Vue.use(Router) // 确定使用vue-router模块
 
 export default new Router({
   mode: 'history',

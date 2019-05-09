@@ -24,7 +24,8 @@
 							</div>
 						</li>
 						<!--active-->
-						<car-panel></car-panel>
+						<!-- 引入购物车组件 -->
+						<car-panel></car-panel>   
 					</ul>
 					<ul class="nav-list">
 					<li><a href="javascript:;">手机</a></li>
@@ -64,10 +65,10 @@
 </template>
 
 <script>
-	import carPanel from '@/components/car-panel'
+	import carPanel from '@/components/car-panel'//导入购物车组件
 	export default{
 		components:{
-			carPanel
+			carPanel  //注册购物车组件到页面中
 		}
 	}
 </script>
