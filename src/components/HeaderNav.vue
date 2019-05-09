@@ -12,10 +12,6 @@
 							<!--active-->
 							<div class="nav-user-wrapper">
 								<div class="nav-user-list">
-									<dl class="nav-user-avatar">
-										<dd><span class="ng-scope"></span></dd>
-										<dt class="ng-binding">+86 138****9453</dt>
-									</dl>
 									<ul>
 										<li class="order"><a href="javascript:;">我的订单</a></li>
 										<li class="support"><a href="javascript:;">售后服务</a></li>
@@ -31,14 +27,20 @@
 						<car-panel></car-panel>
 					</ul>
 					<ul class="nav-list">
-						<li><a href="javascript:;">在线商城</a></li>
-						<li><a href="javascript:;">坚果 Pro</a></li>
-						<li><a href="javascript:;">Smartisan M1 / M1L</a></li>
-						<li><a href="javascript:;">Smartisan OS</a></li>
-						<li><a href="javascript:;">欢喜云</a></li>
-						<li><a href="javascript:;">应用下载</a></li>
-						<li><a href="javascript:;">官方论坛</a></li>
-					</ul>
+					<li><a href="javascript:;">手机</a></li>
+					<li><a href="javascript:;">声学</a></li>
+					<li><a href="javascript:;">配件</a></li>
+					<li><a href="javascript:;">生活</a></li>
+					<li><a href="javascript:;">Flyme</a></li>
+					<li><a href="javascript:;">服务</a></li>
+					<li><a href="javascript:;">专卖店</a></li>
+					<li><a href="javascript:;">社区</a></li>
+					<li><a href="javascript:;">APP下载</a></li>
+					<li><a href="javascript:;">
+							<input type="text" placeholder="魅族16s" class="search">
+							<img src="../assets/img/search.png" alt="" class="search_icon">
+						</a></li>
+				</ul>
 				</div>
 			</div>
 			<div class="nav-sub">

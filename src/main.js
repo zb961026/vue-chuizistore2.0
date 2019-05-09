@@ -6,6 +6,7 @@ import store from './store/index.js'
 import router from '@/router/index.js'
 import '@/assets/css/reset.css'
 import '@/assets/css/header.css'
+import '@/assets/css/footer.css'
 
 Vue.config.productionTip = false
 

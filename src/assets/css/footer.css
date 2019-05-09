@@ -1,0 +1,55 @@
+#footer{
+    margin-top: 230px;
+    background-color: #fff;
+    height: 260px;
+  }
+  .ft{
+    background-color: #fff;
+    clear: both;
+    border-bottom: 1px solid #eee;
+  }
+  .ft_itembox{
+      margin: 0 auto;
+      padding-top: 48px;
+  }
+  .ft_itembox li{
+      float: left;
+      text-align: center;
+  }
+  .ft_img img{
+      width: 39px;
+      height: 32px;
+      margin: 40px 40px 10px 40px;
+  }
+  .ft_info{
+      color: #eee;
+      text-align: center;
+      font-size: 14px;
+  }
+  .ft_catway{
+      margin-top: 40px;
+      float: right;
+  }
+  .ft_date{
+      font-size: 14px;
+  }
+  .ft_phone{
+      font-size: 20px;
+      color: #6189e6;
+  }
+  .ft_ph_btn{
+      width: 90px;
+      height: 30px;
+      background-color: rgba(24, 186, 253, .9);
+      border: 1px solid rgba(24, 186, 253, .9);
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+}
+  .ft_ol{
+      color: #fff;
+      font-size: 16px;
+      padding: 5px 12px;
+  }

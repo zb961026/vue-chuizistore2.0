@@ -43,7 +43,7 @@
 											<p>共 <strong class="ng-binding">{{count}}</strong> 件商品</p>
 											<h5>合计：<span class="price-icon">¥</span><span class="price-num ng-binding" ng-bind="cartMenu.totalPrice">{{totle}}</span></h5>
 											<h6>
-												<router-link class="nav-cart-btn" to="/cart" >去购物车</router-link>
+												<router-link class="nav-cart-btn" to="/cart" >去购物车结算</router-link>
 											</h6>
 										</div>
 									</div>
