@@ -67,10 +67,12 @@
     user-select: none;
 }
 .checkout .address-common-table .address-item-list li.selected-address-item{
+  float: left;
   background: #FFF;
-    border-color: #6A8FE5;
+  border-color: #6A8FE5;
 }
 .checkout .address-common-table .address-item-list .address-item{
+  float: left;
   padding: 19px 14px 0 19px;
 }
 .checkout .address-common-table .name-section{

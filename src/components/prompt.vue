@@ -25,12 +25,12 @@
   export default{
       computed:{
           maxOff(){
-              return this.$store.state.maxOff
+              return this.$store.state.maxOff // 使用store中的方法
           }
       },
       methods:{
           closePrompt(){
-              this.$store.commit('closePrompt')
+              this.$store.commit('closePrompt') // 关闭弹出框
           }
       }
   }  

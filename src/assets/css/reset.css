@@ -105,7 +105,7 @@ pre {
 }
 .store-content{
 	width: 1220px;
-	min-height: 600px;
+	height: 100%;
 	padding: 0 0 25px;
 	margin: 0 auto;
 	position: relative;
