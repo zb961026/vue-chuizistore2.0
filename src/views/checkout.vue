@@ -112,12 +112,12 @@
 							<p> 商品总计： <span>¥ {{checkedPrice}}</span> </p> 
 							<!-- 套数据 -->
 							<p> 运费： <span>+ ¥ {{freight}}</span> </p>  
-							<p class="discount-line js-discount-cash"> <em>现金券</em>： <span> - 0 </span> </p>  
+							<p class="discount-line js-discount-cash"> <em>现金券</em>： <span>优惠{{discount}}</span> </p>  
 						</div> 
 					</div>
 					<div class="box-inner"> 
 						<div class="last-payment clear"> 
-							<span class="jianguo-blue-main-btn big-main-btn payment-blue-bt fn-right js-checkout"> <a>提交订单</a> </span> <span class="prices fn-right">应付金额： <em>¥ {{checkedPrice+freight}}</em></span> 
+							<span class="jianguo-blue-main-btn big-main-btn payment-blue-bt fn-right js-checkout"> <a>提交订单</a> </span> <span class="prices fn-right">应付金额： <em>¥ {{checkedPrice+freight-discount}}</em></span> 
 						</div> 
 					</div>
 				</div>
@@ -167,6 +167,14 @@ export default{
 				freight=0 
 			}
 			return freight
+		},
+		discount(){
+			let discount=0
+			if(this.checkedPrice>=200)
+			{
+				discount=20
+			}
+			return discount
 		},
 		receiveInfo(){
 			return this.$store.state.receiveInfo // 使用store数据
