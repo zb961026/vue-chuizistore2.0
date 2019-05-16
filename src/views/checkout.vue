@@ -10,10 +10,14 @@
 						<div class="box-inner js-checkout-address-panel ">
 							<div class="address-common-table js-multiple-address-panel">
 								<ul class="address-item-list clear js-address-item-list">
-									<li class="js-choose-address" :class="{'selected-address-item':receiveIndex==index}" v-for="(receive,index) in receiveInfo" :key="index">
+									<!-- 判断索引套用类 -->
+									<li class="js-choose-address" :class="{'selected-address-item':receiveIndex==index}" v-for="(receive,index) in receiveInfo" :key="index" @click="chooseReceive(index)">
 										<div class="address-item">
+											<!-- 套数据 -->
 											<div class="name-section">  {{receive.name}}  </div>
+											<!-- 套数据 -->
 											<div class="mobile-section">{{receive.phone}}</div>
+											<!-- 套数据 -->
 											<div class="detail-section"> {{receive.provice}}{{receive.city}}{{receive.county}}<br> {{receive.add}} </div>
 										</div>
 										<div class="operation-section">
@@ -21,7 +25,8 @@
 											<span class="delete-btn js-delete-address">删除</span>
 										</div>
 									</li>
-									<li class="add-address-item js-add-address">
+									<!-- 添加地址方法 -->
+									<li class="add-address-item js-add-address" @click="showPop">
 										<p>添加新地址</p>
 									</li>
 								</ul>
@@ -39,17 +44,24 @@
 							<div class="radio-box"> 
 								<label> 
 									<input type="radio" class="hide"> 
-									<span class="blue-radio blue-radio-on"><a></a></span>  个人
+									<!-- 判断状态决定类样式，点击切换布尔值 -->
+									<span class="blue-radio" :class="{'blue-radio-on':invoice.personal}" @click="checkedInvoice(true)"><a></a></span>  个人
 								</label> 
 								<label> 
-									<input type="radio" class="hide"> 
-									<span class="blue-radio"><a></a></span>  单位
+									<input type="radio" class="hide">
+									<!-- 判断状态决定类样式，点击切换布尔值 -->
+									<span class="blue-radio" :class="{'blue-radio-on':!invoice.personal}" @click="checkedInvoice(false)"><a></a></span>  单位
 								</label> 
 							</div> 
-							<div class="module-form-row form-item fn-hide js-invoice-title"> 
+							<!-- 状态不是个人，隐藏输入框 -->
+							<div class="module-form-row form-item fn-hide js-invoice-title" v-if="!invoice.personal"> 
 								<div class="module-form-item-wrapper no-icon small-item"> 
-									<i>请填写公司发票抬头</i> 
-									<input type="text" class="js-verify"> 
+									<!-- 如果填写了信息，就是填入的名字 -->
+									<i v-show="!invoice.name">请填写公司发票抬头</i> 
+									<!-- 如果填写了信息，就是填入的名字 -->
+									<input type="text" class="js-verify" v-model="invoice.name">
+									<!-- 如果填写了信息，就是填入的名字 -->
+									<div v-show="!invoice.name" class="verify-error">必填</div> 
 								</div> 
 							</div> 
 						</div> 
@@ -96,7 +108,9 @@
 					</div>
 					<div class="box-inner"> 
 						<div class="order-discount-line"> 
+							<!-- 套数据 -->
 							<p> 商品总计： <span>¥ {{checkedPrice}}</span> </p> 
+							<!-- 套数据 -->
 							<p> 运费： <span>+ ¥ {{freight}}</span> </p>  
 							<p class="discount-line js-discount-cash"> <em>现金券</em>： <span> - 0 </span> </p>  
 						</div> 
@@ -109,24 +123,35 @@
 				</div>
 			</div>
 		</div>
+		<!-- 显示状态，关闭方框 ，父级拿到方法-->
+		<address-Pop v-if="popShow" @close="closePop"></address-Pop>
     </div>
 </template>
 
 <script>
+import addressPop from '@/components/address-pop'
 export default{
 	data(){
 		return{
-			receiveIndex:0
+			receiveIndex:0 ,// 索引默认为0
+			popShow:false,// 默认状态关闭
+			invoice:{ // 默认双状态
+				personal:true,
+				name:''
+			}
 		}
 	},
 	created(){
-		this.$store.state.receiveInfo.forEach((receive,index)=>{
-			if(receive.default)
+		this.$store.state.receiveInfo.forEach((receive,index)=>{ // 循环商品
+			if(receive.default) // 如果状态为选中
 			{
-				this.receiveIndex=index
+				this.receiveIndex=index // 索引等于当前索引
 				return
 			}
 		})
+	},
+	components:{
+		addressPop // 引入组件
 	},
 	computed:{
 		checkedGoods(){ // 选中的商品
@@ -144,9 +169,25 @@ export default{
 			return freight
 		},
 		receiveInfo(){
-			return this.$store.state.receiveInfo
+			return this.$store.state.receiveInfo // 使用store数据
 		}
 
+	},
+	methods:{
+		chooseReceive(index) // 选中索引
+		{
+			this.receiveIndex=index; // 赋予索引
+		},
+		closePop(){
+			this.popShow=false; // 关闭状态
+		},
+		showPop(){
+			this.popShow=true; // 显示状态
+		},
+		checkedInvoice(boole)
+		{
+			this.invoice.personal=boole; // 个人的状态值等于传入的布尔值
+		}
 	}
 }
 </script>
