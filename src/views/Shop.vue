@@ -8,9 +8,9 @@
 							<li><a href="javascript:;" class="left">手机</a></li>
 						</ul>
 						<ul class="line clear right">
-							<li><a href="javascript:;" class="right active">价格排序</a></li>
-							<li><a href="javascript:;" class="right">从大到小</a></li>
-							<li><a href="javascript:;" class="right">从小到大</a></li>
+							<li><a href="javascript:;" class="right active">默认</a></li>
+							<li><a href="javascript:;" class="right arrow"><span class="right arrow before" v-on:mouseenter="sxu"></span>价格<span class="right arrow after" v-on:mouseenter="jxu"></span></a></li>
+							<li><a href="javascript:;" class="right arrow">销量</a></li>
 						</ul>
 					</div>
 				<div class="gray-box">
@@ -37,6 +37,10 @@ export default {
     },
 	components:{
 		shopItem,prompt
+	},
+	methods:{
+		hover(){
+		}
 	}
 };
 </script>
