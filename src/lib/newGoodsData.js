@@ -1,240 +1,80 @@
 let goodsData = [{
   'id': 1000271,
-  'name': '坚果 Pro 软胶保护套',
-  'name_title': 'TPU 环保材质、耐磨、耐油、耐久性强',
-  'price': 49,
+  'name': '魅族 Note9',
+  'name_title': '[618特惠 低至1199元起 限时抢购中]',
+  'price': 1199,
   'sku_info': [{
     'sku_id': 100027101,
-    'title': '坚果 Pro 软胶保护套',
-    'sub_title': 'TPU 环保材质、耐磨、耐油、耐久性强',
-    'ali_image': 'http://image.smartisanos.cn/resource/902befd5f32a8caf4ca79b55d39ee25a.jpg',
-    'price': 49,
+    'title': '魅族 Note9',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/12/Cgbj0Vx_ZK6AaEObAAa1DJqn7us376.png@480x480.jpg',
+    'price': 1199,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000271/948F029DCF134EF23267994487994DA5/',
-      'show_name': '红色'
-    }
-  }, {
-    'sku_id': 100027102,
-    'title': '坚果 Pro 软胶保护套',
-    'sub_title': 'TPU 环保材质、耐磨、耐油、耐久性强',
-    'ali_image': 'http://image.smartisanos.cn/resource/554da94d8e4f84f03e0015fd1c997f46.jpg',
-    'price': 49,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000271/649AD35E36A9703BACBE1555AEB6D266/',
+      'image': 'https://openfile.meizu.com/group1/M00/06/ED/Cgbj0Fw0T3OAUsmSAAAKRl5WFHo325.png',
       'show_name': '黑色'
     }
   }, {
-    'sku_id': 100027103,
-    'title': '坚果 Pro 软胶保护套',
-    'sub_title': 'TPU 环保材质、耐磨、耐油、耐久性强',
-    'ali_image': 'http://image.smartisanos.cn/resource/84b58718b8f8da3c08e0931e19fdc62e.png',
-    'price': 49,
+    'sku_id': 100027102,
+    'title': '魅族 Note9',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png@480x480.jpg',
+    'price': 1199,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000271/07BAF8C0EF046224A84B593DEEBC869E/',
-      'show_name': '巧克力色'
+      'image': 'https://openfile.meizu.com/group1/M00/06/ED/Cgbj0Fw0T3OAEdZCAAAJazF5kdU736.png',
+      'show_name': '白色'
     }
   }, {
-    'sku_id': 100027104,
-    'title': '坚果 Pro 软胶保护套',
-    'sub_title': 'TPU 环保材质、耐磨、耐油、耐久性强',
-    'ali_image': 'http://image.smartisanos.cn/resource/b20055215ae3db0f2c8b7ba4db68866f.png',
-    'price': 49,
+    'sku_id': 100027103,
+    'title': '魅族 Note9',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/03/Cgbj0Fx_ZMCAdyF9AAbOHZSdVO8974.png@480x480.jpg',
+    'price': 1199,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000271/52317E0C067C97FC6CE9376A2432CFFF/',
-      'show_name': '浅金色'
+      'image': 'https://openfile.meizu.com/group1/M00/06/FD/Cgbj0Vw0T3OAWwcZAAAKAuloWpw010.png',
+      'show_name': '蓝色'
     }
   }]
 }, {
   'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
+  'name': '魅族 16S',
+  'name_title': '[618特惠 低至1199元起 限时抢购中]',
+  'price': 2699,
   'sku_info': [{
     'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
+    'title': '[618特惠 低至1199元起 限时抢购中]',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/3B/Cgbj0VzaXQqAHUNIAAi8Q-a1EVI137.png@480x480.jpg',
+    'price': 2699,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
+      'image': 'https://openfile.meizu.com/group1/M00/07/37/Cgbj0VzFXcWADbyoAAAbAyGs-Hw580.png',
+      'show_name': '青蓝色'
     }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
+  },
+  {
+    'sku_id': 100029902,
+    'title': '魅族 16S',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/23/Cgbj0FzaXQqAH-L3AAeSSra0qAg862.png@480x480.jpg',
+    'price': 2699,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
+      'image': 'https://openfile.meizu.com/group1/M00/07/20/Cgbj0FzFXcWAatqeAAAWGAde3TI196.png',
+      'show_name': '灰白色'
     }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
+  },{
+    'sku_id': 100029903,
+    'title': '魅族 16S',
+    'sub_title': '[618特惠 低至1199元起 限时抢购中]',
+    'ali_image': 'https://openfile.meizu.com/group1/M00/07/3B/Cgbj0VzaXQqAMN2pAAa47vx50YU413.png@480x480.jpg',
+    'price': 2699,
     'limit_num': 5,
     'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-}, {
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-},
-{
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
-    }
-  }]
-},
-{
-  'id': 1000299,
-  'name': 'Smartisan 快充移动电源 10000mAh',
-  'name_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-  'price': 199,
-  'sku_info': [{
-    'sku_id': 100029901,
-    'title': 'Smartisan 快充移动电源 10000mAh',
-    'sub_title': '10000mAh 双向快充、轻盈便携、高标准安全保护',
-    'ali_image': 'http://image.smartisanos.cn/resource/ae40a16324658c192c7361d829f603bd.jpg',
-    'price': 199,
-    'limit_num': 5,
-    'spec_json': {
-      'image': 'attr/v2/1000299/B37F37544921114CEF1EC01ED4DF44E4/',
-      'show_name': '灰色'
+      'image': 'https://openfile.meizu.com/group1/M00/07/20/Cgbj0FzFXcWAUCvwAAAWicGGU48268.png',
+      'show_name': '黑耀色'
     }
   }]
 }]

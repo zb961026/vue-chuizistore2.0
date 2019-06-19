@@ -4,32 +4,32 @@ Vue.use(Vuex) // 使用vuex状态管理工具
 let store = new Vuex.Store({ // 创建一个store
   state: {
     carPanelData: [], // 购物车数据
-    receiveInfo:[
+    receiveInfo: [
       {
-        'name':'王某某',
-        'phone':'1381111111',
-        'areaCode':'010',
-        'landLine':'110000',
-        'province':'北京市',
-        'cityId':'110100',
-        'city':'市辖区',
-        'countyId':'110106',
-        'county':'海淀区',
-        'add':'上地十街国际西6号楼319室',
-        'default':true
+        'name': '上官飘逸',
+        'phone': '1381111111',
+        'areaCode': '010',
+        'landLine': '110000',
+        'province': '四川市',
+        'cityId': '110100',
+        'city': '市辖区',
+        'countyId': '110106',
+        'county': '江湖区',
+        'add': '上地十街国际西6号楼319室',
+        'default': true
       },
       {
-        'name':'李某某',
-        'phone':'1381111111',
-        'areaCode':'010',
-        'landLine':'110000',
-        'province':'北京市',
-        'cityId':'110100',
-        'city':'市辖区',
-        'countyId':'110106',
-        'county':'海淀区',
-        'add':'上地十街国际西6号楼319室',
-        'default':false
+        'name': '梦随心非',
+        'phone': '1381111111',
+        'areaCode': '010',
+        'landLine': '110000',
+        'province': '东莞市',
+        'cityId': '110100',
+        'city': '市辖区',
+        'countyId': '110106',
+        'county': '宛城区',
+        'add': '上地十街国际西6号楼319室',
+        'default': false
       },
     ],
     maxOff: false, // 单间商品是否为最大数量

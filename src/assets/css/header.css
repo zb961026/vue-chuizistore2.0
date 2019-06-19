@@ -3,8 +3,7 @@
 .nav-global {
   height: 80px;
   position: relative;
-  border-bottom: 2px solid #eee;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255);
 }
 
 .container {
@@ -45,7 +44,7 @@
   float: left;
 }
 
-.nav-global .nav-list a {
+.nav-global .nav-list a{
   display: inline-block;
   font-size: 12px;
   padding: 0 14px;
@@ -57,7 +56,7 @@
   -o-transition: color .2s linear;
 }
 
-.nav-global .nav-list a .search {
+.nav-global .nav-list .search {
   width: 176px;
   height: 30px;
   color: #eee;
@@ -82,9 +81,9 @@
   color: rgba(24, 186, 253, .9);
 }
 
-.nav-global .nav-list a:hover {
+/* .nav-global .nav-list a:hover {
   color: rgba(24, 186, 253, .9);
-}
+} */
 
 .nav-aside {
   box-sizing: border-box;

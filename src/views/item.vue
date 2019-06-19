@@ -9,7 +9,7 @@
 									<!-- 循环图片，当索引匹配到，就显示对应颜色图片顺序 -->
 									<li :class="{'on':index==imgIndex}" @click="tableImg(index)" v-for="(img,index) in itemInfo.ali_images" :key="index">
 										<!-- 循环图片和拼接图片大小-->
-										<img :src="img+'?x-oss-process=image/resize,w_54/quality,Q_90/format,webp'">
+										<img :src="img" width="54px" height="54px">
 									</li>
 								</ul>
 							</div>
@@ -18,7 +18,7 @@
 									<!-- 循环图片，当索引匹配到，就显示对应手机状态图片-->
 									<li :class="{'on':index==imgIndex}" v-for="(img,index) in itemInfo.ali_images" :key="index">
 										<!-- 循环图片和拼接图片大小-->
-										<img :src="img+'?x-oss-process=image/resize,w_440/quality,Q_90/format,webp'"></li>
+										<img :src="img" width="440px" height="440px"></li>
 								</ul>
 							</div>
 						</div>
@@ -45,7 +45,7 @@
 										<!--提示点击到的颜色信息-->
 										<router-link :title="color.color" :to="{name:'Item',query:{itemId:color.id}}">
 											<!-- 匹配到对应的图片，从后台拼接图片大小 -->
-										<img :src="'http://img01.smartisanos.cn/'+color.image+'20X20.jpg'">
+										<img :src="color.image">
 										</router-link>
 									</li>
 								</ul>
@@ -82,6 +82,7 @@
 <script>
 import itemsData from '@/lib/newItemsData'
 import prompt from '@/components/prompt'
+import axios from 'axios'
 export default{
 	data(){
 		return{
